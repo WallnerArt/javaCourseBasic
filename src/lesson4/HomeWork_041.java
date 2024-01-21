@@ -1,6 +1,6 @@
 package lesson4;
 
-public class HomeWork_04 {
+public class HomeWork_041 {
     public static void main(String[] args) {
         // Записываем информацию о себе (или выдуманном персонаже) в переменные
         String name = "Евгений";
