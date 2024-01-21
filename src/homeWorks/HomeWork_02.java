@@ -1,6 +1,6 @@
 package homeWorks;
 
-public class HomeWork_021 {
+public class HomeWork_02 {
 
     public static void main(String[] args) {
         // Инициализация переменных для примитивных типов
