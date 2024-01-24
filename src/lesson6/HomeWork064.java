@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HomeWork064 {
 
     public static void main(String[] args) {
+
         // Тема: создание переменной типа String
         // Создаем переменную типа String и присваиваем ей в качестве начального значения ваше имя
         String myName = "Ваше Имя";

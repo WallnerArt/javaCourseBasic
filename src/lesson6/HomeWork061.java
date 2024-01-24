@@ -1,6 +1,5 @@
 package lesson6;
 public class HomeWork061 {
-
         public static void main(String[] args) {
             // 1. Создаем строку через new - I study Basic Java!
             String myString = new String("I study Basic Java!");
@@ -13,9 +12,8 @@ public class HomeWork061 {
             String substr = myString.substring(myString.indexOf("Java"), myString.indexOf("Java") + "Java".length());
             System.out.println("Substring 'Java': " + substr);
         }
-
         // Метод для распечатки информации о строке
-        public static void printStringInfo(String inputString) {
+         public static void printStringInfo(String inputString) {
             // 3. Распечатываем последний символ строки. Используем метод String.charAt().
             char lastChar = inputString.charAt(inputString.length() - 1);
             System.out.println("Last character: " + lastChar);
