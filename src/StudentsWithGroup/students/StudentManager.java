@@ -5,7 +5,7 @@ import scanner.UserInput;
 public class StudentManager {
 
 
-    private UserInput ui;
+    private final UserInput ui;
 
     public StudentManager() {
 

@@ -2,10 +2,10 @@ package StudentsWithGroup.students;
 
 public class Student {
 
-    private String lastName;
-    private String firstName;
-    private String studentCardNumber;
-    private Group group;
+    private final String lastName;
+    private final String firstName;
+    private final String studentCardNumber;
+    private final Group group;
 
     public Student(String lastName, String firstName, String studentCardNumber, Group group) {
         this.lastName = lastName;

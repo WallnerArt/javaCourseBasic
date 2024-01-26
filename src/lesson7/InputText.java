@@ -3,6 +3,7 @@ package lesson7;
 import java.util.Scanner;
 
 public class InputText {
+
     public String inputTextFromKeyboard(String message){
         System.out.println(message);
         Scanner scanner = new Scanner(System.in);

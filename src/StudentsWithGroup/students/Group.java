@@ -1,9 +1,9 @@
 package StudentsWithGroup.students;
 
 public class Group {
-    private String name;
-    private String startDate;
-    private int studentCount;
+    private final String name;
+    private final String startDate;
+    private final int studentCount;
 
     public Group(String name, String startDate, int studentCount) {
         this.name = name;
