@@ -1,4 +1,4 @@
-package lesson6;
+package lesson6.HomeWork6;
 
 import lesson7.InputText;
 import lesson7.MethodsForWorkWithString;
