@@ -1,6 +1,7 @@
-package lesson6.code.car;
+package lesson6.code.lessoncode.publicAndPrivet.moto.car;
 
-import lesson6.code.car.Car;
+import lesson6.code.lessoncode.publicAndPrivet.moto.car.entiry.Car;
+
 public class CarDemo {
     public static void main(String[] args) {
         Car car = new Car("Mercedes");
@@ -12,5 +13,3 @@ public class CarDemo {
 
     }
 }
-
-
