@@ -1,4 +1,4 @@
-package code.lessoncode.multiCooker;
+package lesson5.code.lessoncode.multiCooker;
 
 public class MultiCooker {
 
