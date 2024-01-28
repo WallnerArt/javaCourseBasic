@@ -1,4 +1,4 @@
-package lesson6.random;
+package lesson6.code.lessoncode;
 
 public class RandomWithMathMethod {
         public static void main(String[] args) {
