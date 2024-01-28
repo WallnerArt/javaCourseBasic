@@ -1,11 +1,11 @@
-package StudentsWithGroup.students;
+package lesson8.code.lessoncode.studentsWithGroup.students;
 
 public class Student {
 
-    private final String lastName;
-    private final String firstName;
-    private final String studentCardNumber;
-    private final Group group;
+    private String lastName;
+    private String firstName;
+    private String studentCardNumber;
+    private Group group;
 
     public Student(String lastName, String firstName, String studentCardNumber, Group group) {
         this.lastName = lastName;
