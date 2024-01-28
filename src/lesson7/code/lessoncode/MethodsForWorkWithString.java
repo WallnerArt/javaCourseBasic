@@ -1,4 +1,4 @@
-package lesson7;
+package lesson7.code.lessoncode;
 
 public class MethodsForWorkWithString {
 
