@@ -1,4 +1,4 @@
-package stringOperations;
+package lesson6.code.lessoncode.stringOperations;
 
 public class ChangeString {
 
@@ -16,4 +16,3 @@ public class ChangeString {
         System.out.println(str2);
     }
 }
-
