@@ -1,29 +1,28 @@
-package scanner;
+package lesson6.code.lessoncode.scanner;
 
 import java.util.Scanner;
-
 public class UserInput {
-    public String inputText(String message){
+
+    public String inputText(String message) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(message);
         String inputText = scanner.nextLine();
         return inputText;
     }
-    public int inputInteger(String message){
+
+    public int inputInteger(String message) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(message);
         int inputInteger = scanner.nextInt();
         return inputInteger;
     }
-    public double inputDouble(String message){
-        Scanner scanner = new Scanner(System.in);
 
+    public double inputDouble(String message) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println(message);
-        double inputDouble = scanner.nextDouble();
-        scanner.close();
+        Double inputDouble = scanner.nextDouble();
         return inputDouble;
     }
-
 }
