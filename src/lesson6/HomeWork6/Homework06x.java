@@ -1,7 +1,7 @@
 package lesson6.HomeWork6;
 
-import lesson7.InputText;
-import lesson7.MethodsForWorkWithString;
+import lesson7.code.lessoncode.InputText;
+import lesson7.code.lessoncode.MethodsForWorkWithString;
 
 public class Homework06x {
       /*
