@@ -1,4 +1,4 @@
-package students;
+package lesson8.code.lessoncode.students;
 
 public class StudentsGroup {
 
