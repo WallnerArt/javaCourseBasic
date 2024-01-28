@@ -1,4 +1,4 @@
-package scanner;
+package lesson6.code.lessoncode.scanner;
 
 import java.util.Scanner;
 
@@ -22,5 +22,6 @@ public class ScannerExample {
 
         scanner.close();
     }
-}
 
+
+}
