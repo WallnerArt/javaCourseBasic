@@ -1,4 +1,5 @@
-package calculatorTask5;
+package lesson8.code.lessoncode.calculatorTask5;
+
 
 import java.util.Scanner;
 
