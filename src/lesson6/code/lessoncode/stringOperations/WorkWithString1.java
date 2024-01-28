@@ -1,4 +1,4 @@
-package stringOperations;
+package lesson6.code.lessoncode.stringOperations;
 
 public class WorkWithString1 {
 
