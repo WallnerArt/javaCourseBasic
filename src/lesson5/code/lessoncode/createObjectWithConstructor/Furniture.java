@@ -1,4 +1,4 @@
-package lesson5.createObjectWithConstructor;
+package lesson5.code.lessoncode.createObjectWithConstructor;
 
 public class Furniture {
 
