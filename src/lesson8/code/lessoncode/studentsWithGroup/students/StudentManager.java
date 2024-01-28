@@ -1,21 +1,16 @@
-package StudentsWithGroup.students;
+package lesson8.code.lessoncode.studentsWithGroup.students;
 
-import scanner.UserInput;
+import lesson6.code.lessoncode.scanner.UserInput;
 
 public class StudentManager {
 
 
-    private final UserInput ui;
-
-    public StudentManager() {
-
-        this.ui = new UserInput();
-    }
+    private UserInput ui = new UserInput();
 
     public Group createGroup() {
         String groupName = ui.inputText("Название группы: ");
         String startDate = ui.inputText("Дата начала обучения: ");
-        int studentCount = Integer.parseInt(ui.inputText("Количество студентов в группе: "));
+        int studentCount = ui.inputInteger("Количество студентов в группе: ");
 
         return new Group(groupName, startDate, studentCount);
     }
