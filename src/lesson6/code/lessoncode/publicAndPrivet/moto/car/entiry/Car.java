@@ -1,16 +1,17 @@
-package lesson6.code.car;
-    public class Car {
-        public String color;
+package lesson6.code.lessoncode.publicAndPrivet.moto.car.entiry;
 
-        public String model;
+public class Car {
+    public String color;
 
-        private String producer;
+    public String model;
+
+    private final String producer;
 
 
 
-        public Car(String producer) {
-            this.producer = producer;
-        }
+    public Car(String producer) {
+        this.producer = producer;
+    }
 
     /*
     модификаторы доступа к переменным (полям класса)
@@ -20,8 +21,8 @@ package lesson6.code.car;
     4) protected (изучим позже)
      */
 
-        public String getProducer() {
-            return producer;
-        }
+    public String getProducer() {
+        return producer;
     }
+}
 
