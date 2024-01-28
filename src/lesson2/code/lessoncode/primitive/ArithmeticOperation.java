@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2.code.lessoncode.primitive;
 
 public class ArithmeticOperation {
     public static void main(String[] args) {
