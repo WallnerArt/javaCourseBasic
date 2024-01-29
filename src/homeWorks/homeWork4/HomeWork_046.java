@@ -1,6 +1,6 @@
-package homeWorks;
+package homeWorks.homeWork4;
 
-public class HomeWork_045 {
+public class HomeWork_046 {
     public static void main(String[] args) {
         // Проверка остатка от деления на 2
         System.out.println("Остатки от деления на 2:");

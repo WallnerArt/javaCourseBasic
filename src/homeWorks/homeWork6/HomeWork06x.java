@@ -1,9 +1,9 @@
-package lesson6.HomeWork6;
+package homeWorks.homeWork6;
 
 import lesson7.code.lessoncode.InputText;
 import lesson7.code.lessoncode.MethodsForWorkWithString;
 
-public class Homework06x {
+public class HomeWork06x {
       /*
 
     Введите 2 слова, используйте сканер.

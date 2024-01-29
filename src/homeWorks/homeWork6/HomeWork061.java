@@ -1,4 +1,4 @@
-package lesson6.HomeWork6;
+package homeWorks.homeWork6;
 public class HomeWork061 {
         public static void main(String[] args) {
             // 1. Создаем строку через new - I study Basic Java!
