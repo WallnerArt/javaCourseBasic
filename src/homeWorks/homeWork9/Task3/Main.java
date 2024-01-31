@@ -1,22 +1,21 @@
 package homeWorks.homeWork9.Task3;
+import java.util.Scanner;
+
 public class Main {
-        public static void main(String[] args) {
-            // Генерация случайных чисел
-            int[] randomNumbers = new int[4];
-            for (int i = 0; i < randomNumbers.length; i++) {
-                randomNumbers[i] = RandomNumberGenerator.generateRandomNumber();
-            }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число от 1 до 7:");
+        int number = scanner.nextInt();
 
-            // Вывод сгенерированных чисел на экран
-            System.out.println("Сгенерированные числа:");
-            for (int number : randomNumbers) {
-                System.out.println(number);
-            }
+        NumberAnalyzer analyzer = new NumberAnalyzer();
+        String result = analyzer.analyze(number);
 
-            // Определение максимального числа и вывод на экран
-            int maxNumber = NumberAnalyzer.findMax(randomNumbers);
-            System.out.println("Максимальное число: " + maxNumber);
-        }
+        System.out.println(result);
     }
+}
+
+
+
+
 
 
