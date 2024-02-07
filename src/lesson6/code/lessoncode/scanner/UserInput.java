@@ -25,4 +25,8 @@ public class UserInput {
         Double inputDouble = scanner.nextDouble();
         return inputDouble;
     }
+
+    public boolean inputBoolean(String s) {
+        return true;
+    }
 }
