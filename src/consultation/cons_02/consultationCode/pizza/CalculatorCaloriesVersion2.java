@@ -1,7 +1,7 @@
-package consultation.cons_02.consultationCode.code.pizzaExampleSimple;
+package consultation.cons_02.consultationCode.pizza;
 
-public class CalculatorCalories {
-      /*
+public class CalculatorCaloriesVersion2 {
+ /*
 
 Напишите программу, которая вычисляет, сколько лишних калорий будет,
 если вместо пиццы диаметром 24 см вы купите пиццу диаметром 28 см.
@@ -34,14 +34,15 @@ caloriesInOneCm = 40;
 
         int caloriesInOneCm = 40;
 
-        double caloriesPizza1 = caloriesInOneCm * Math.PI * (diameterPizza1 * diameterPizza1) / 4;
 
-        double caloriesPizza2 = caloriesInOneCm * Math.PI * (diameterPizza2 * diameterPizza2) / 4;
+        Pizza pizza1 = new Pizza(diameterPizza1, caloriesInOneCm);
 
-        double extraCalories = caloriesPizza2 - caloriesPizza1;
+        Pizza pizza2 = new Pizza(diameterPizza2,caloriesInOneCm);
+
+        double extraCalories = pizza2.totalCaloriesInPizza() - pizza1.totalCaloriesInPizza();
 
         System.out.println("Количество лишних калорий: " + extraCalories);
+
+        System.out.println(pizza1.diameter);
     }
-
-
 }

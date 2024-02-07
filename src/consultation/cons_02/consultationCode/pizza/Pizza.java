@@ -1,4 +1,4 @@
-package consultation.cons_02.consultationCode.code.pizza;
+package consultation.cons_02.consultationCode.pizza;
 
 public class Pizza {
     int diameter;
