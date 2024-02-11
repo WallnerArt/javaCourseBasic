@@ -1,0 +1,38 @@
+package lesson18.code.lessoncode.service;
+
+import lesson18.code.lessoncode.entity.Card;
+import lesson18.code.lessoncode.entity.Player;
+
+public class CardTableService {
+
+    public void createPlayers(Player[] players){
+
+        for (int i = 0; i < players.length; i++) {
+            players[i] = new Player("Player # " + (i + 1));
+        }
+    }
+
+    public void dealCards(Card[] deck, int numberCardForEachPlayer, Player[] players){
+        int counter = 0;
+
+        for (int i = 0; i < numberCardForEachPlayer; i++) {
+            for (int j = 0; j < players.length; j++) {
+
+                Card[] currentPlayerCards = players[j].getPlayerCards();
+                currentPlayerCards[i] = deck[counter];
+                counter++;
+            }
+        }
+    }
+
+    public void removeCardsFromDeck(Card[] deck, int numberCardForEachPlayer, int numberPlayers){
+        int numberCardsForRemove = numberCardForEachPlayer * numberPlayers;
+
+        Card emptyCard = new Card("","");
+
+        for (int i = 0; i < numberCardsForRemove; i++) {
+            deck[i] = emptyCard;
+        }
+    }
+
+}
