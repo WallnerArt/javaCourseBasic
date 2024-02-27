@@ -1,11 +1,10 @@
-package consultation.cons_11.consultationCode;
+package consultation.cons_10.consultationCode;
 
-import consultation.cons_11.consultationCode.entity.Author;
-import consultation.cons_11.consultationCode.entity.Book;
-import consultation.cons_11.consultationCode.entity.BookAndReader;
-import consultation.cons_11.consultationCode.entity.Reader;
-import consultation.cons_11.consultationCode.service.LibraryManagement;
-import lesson_26.code.lessoncode.arrayListExamples.TV;
+import consultation.cons_10.consultationCode.entity.Author;
+import consultation.cons_10.consultationCode.entity.Book;
+import consultation.cons_10.consultationCode.entity.BookAndReader;
+import consultation.cons_10.consultationCode.entity.Reader;
+import consultation.cons_10.consultationCode.service.LibraryManagement;
 
 import java.util.ArrayList;
 import java.util.List;

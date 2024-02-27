@@ -1,4 +1,4 @@
-package consultation.cons_11.consultationCode.entity;
+package consultation.cons_10.consultationCode.entity;
 
 public class Book {
 
