@@ -1,4 +1,4 @@
-package lesson_33.code.lessoncode.task_02;
+package lesson_33.code.lessoncode.homeWork.task_01.task_02;
 
 import java.util.HashMap;
 import java.util.Map;

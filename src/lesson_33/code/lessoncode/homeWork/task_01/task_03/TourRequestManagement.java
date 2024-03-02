@@ -1,4 +1,4 @@
-package lesson_33.code.lessoncode.task_03;
+package lesson_33.code.lessoncode.homeWork.task_01.task_03;
 
 public class TourRequestManagement {
     public static void main(String[] args) {

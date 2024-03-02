@@ -1,4 +1,4 @@
-package lesson_33.code.lessoncode.task_03;
+package lesson_33.code.lessoncode.homeWork.task_01.task_03;
 
 import java.util.LinkedList;
 import java.util.Queue;

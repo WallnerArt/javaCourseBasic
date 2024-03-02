@@ -1,4 +1,4 @@
-package lesson_33.code.lessoncode.task_01;
+package lesson_33.code.lessoncode.homeWork.task_01;
 
 public class Contact {
     private String name;
