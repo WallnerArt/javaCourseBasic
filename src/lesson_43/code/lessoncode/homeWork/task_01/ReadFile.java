@@ -6,16 +6,18 @@ import java.io.IOException;
 
 public class ReadFile {
     public static void main(String[] args) {
-        String fileName = "C\\Users\\walln\\IdeaProjects\\javaCourseBasic\\src\\lesson_42.code.lessoncode\\resource\\fileWriterDemo.txt";
+        String fileName = "C\\Users\\walln\\IdeaProjects\\javaCourseBasic\\src\\lesson_42\\code\\lessoncode\\resource\\fileWriterDemo.txt";
 
-        // Укажите путь к вашему текстовому файлу
+            // Указываем путь к нашему текстовому файлу
         try {
             FileReader fileReader = new FileReader(fileName);
+            //мы используем классы FileReader и BufferedReader для чтения данных из текстового файла.
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-
+            // Мы открываем файл с помощью FileReader, а затем оборачиваем его в BufferedReader для повышения производительности чтения.
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
+            //  В цикле while мы читаем построчно из файла с помощью метода readLine()
             }
 
             bufferedReader.close();
