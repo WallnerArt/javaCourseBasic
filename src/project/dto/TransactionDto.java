@@ -34,4 +34,21 @@ public class TransactionDto {
     public void setDate(String date) {
         this.date = date;
     }
+
+    public Object getField() {
+
+        return null;
+    }
+
+    public Object getValue() {
+        return null;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
 }

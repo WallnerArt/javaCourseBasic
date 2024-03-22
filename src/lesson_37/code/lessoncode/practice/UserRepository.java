@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-class UserRepository {
+public class UserRepository {
     private List<User> users = new ArrayList<>();
 
     public void addUser(User user) {
